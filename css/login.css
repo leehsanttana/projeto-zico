@@ -1,0 +1,75 @@
+body{
+    background-image: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a{   
+    color: #FAA307;
+    font-size: .90em;
+}
+
+a:hover{
+    color: #FFBA08;
+}
+
+
+.login{
+    margin-top: 5%;
+}
+
+.vl {
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+
+  .btn-fb {
+    color: #fff;
+    background-color: #3B5998;
+    border-color: #3B5998;
+    opacity: .8;
+    
+}
+
+.btn-fb:hover{
+    color: #fff; 
+    background-color: #3B5998;
+    border-color: #3B5998;
+    opacity: 1;
+    transition: .5s;
+}
+
+.btn-gl {
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+    opacity: .8;
+    
+}
+
+.btn-gl:hover{
+    color: #fff; 
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+    opacity: 1;
+    transition: .5s;
+}
+
+.btn-tw {
+    color: #fff;
+    background-color: #55ACEE;
+    border-color: #55ACEE;
+    opacity: .8;
+    
+}
+
+.btn-tw:hover{
+    color: #fff; 
+    background-color: #55ACEE;
+    border-color: #55ACEE;
+    opacity: 1;
+    transition: .5s;
+}

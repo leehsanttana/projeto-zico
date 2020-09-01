@@ -1,0 +1,27 @@
+.mySlides {
+    display: none;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.column img {
+    float: right;
+    border: 1px solid rgb(122, 122, 122);
+    margin-bottom: .4em;
+}
+
+.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+}
+
+.form-control{
+    width: 3.5em;
+    height: 3.2em;
+    border-radius: 1em;
+    background: rgba(16, 24, 70, 0.5);
+    color: #fff;
+}

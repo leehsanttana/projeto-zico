@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autozicco</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/pagina-produtos.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container-fluid div-login">
+        <ul class="nav d-flex justify-content-end">
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-shopping-cart pr-2"></i>Carrinho de Compras</a>
+            </li>
+            <li class="nav-item">
+                <a href="login.html" class="nav-link"><i class="fas fa-user pr-2"></i>Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="cadastrar.html" class="nav-link"><i class="fas fa-user pr-2"></i>Cadastre-se</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid py-4 bg-blue">
+        <div class="row">
+            <div class="col-3 text-center">
+                <a href="index.html"><img src="img/logo zicco2.png" alt="logo-zicco" class="img-fluid"></a>
+            </div>
+            <div class="col-8">
+                <div class="form-row">
+                    <div class="col-12">
+                        <div class="input-group mb-3 pt-4">
+
+                            <input type="text" class="form-control" placeholder="Pesquisar Produto">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-grey">
+        <nav class="container nav navbar-expand-md">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <img src="img/botao-menu.png" alt="">
+            </button>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav">
+                    <li class="nav-item item-menu">
+                        <a class="nav-link link-menu" href="index.html"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item item-menu">
+                        <a class="nav-link link-menu active2" href="produtos.html">Todos os Departamentos</a>
+                    </li>
+                    <li class="nav-item item-menu">
+                        <a class="nav-link link-menu" href="produtos.html">Capô</a>
+                    </li>
+                    <li class="nav-item item-menu">
+                        <a class="nav-link link-menu" href="produtos.html">Farol</a>
+                    </li>
+                    <li class="nav-item item-menu">
+                        <a class="nav-link link-menu" href="produtos.html">Lanternas</a>
+                    </li>
+                    <li class="nav-item item-menu">
+                        <a class="nav-link link-menu" href="produtos.html">Para-choques</a>
+                    </li>
+                    <li class="nav-item item-menu">
+                        <div class="dropdown">
+                            <a class="nav-link link-menu dropdown-toggle" data-toggle="dropdown" href="#">Fabricantes</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Link 1</a>
+                              <a class="dropdown-item" href="#">Link 2</a>
+                              <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+    </div>
+
+    <header class="container-fluid">
+        <h2 class="display-2 py-5">Produtos</h2>
+    </header>
+
+    <section class="container">
+
+        <div class="ml-2 my-4">
+            <a href="">Home /</a> <a href="">Categoria /</a> <a href="">Nome Produto /</a>
+        </div>
+
+        <div class="row mt-4">
+
+            <div class="col-lg-1">
+
+                <div class="column">
+                    <img class="demo cursor" src="img/produtos/gallery/mcw11008 09_5.jpg" style="width:80%" onclick="currentSlide(1)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/produtos/gallery/mcw11008 09.jpg" style="width:80%" onclick="currentSlide(2)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/produtos/gallery/mcw11008 09_2.jpg" style="width:80%" onclick="currentSlide(3)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/produtos/gallery/mcw11008 09_3.jpg" style="width:80%" onclick="currentSlide(4)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/produtos/gallery/mcw11008 09_4.jpg" style="width:80%" onclick="currentSlide(5)" alt="">
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+              
+                    <div class="mySlides">
+                      <img src="img/produtos/gallery/mcw11008 09_5.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="img/produtos/gallery/mcw11008 09.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="img/produtos/gallery/mcw11008 09_2.jpg" style="width:100%">
+                    </div>
+                      
+                    <div class="mySlides">
+                      <img src="img/produtos/gallery/mcw11008 09_3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="img/produtos/gallery/mcw11008 09_4.jpg" style="width:100%">
+                    </div>    
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <h4>Farol Palio 2004/2016 Cromado Aro Cromado</h4>
+                <p>Cod.: MCW11008</p>
+                <P>Fabricante: <a href="">ARTEB</a></P>
+                
+                <small><del>R$299,00</del> </small>
+                <h1>R$149,00</h1>
+
+                <div class="form-group">
+                    <label for="data-nascimento">Quantidade:</label>
+                    <input type="number" class="form-control" placeholder="" id="data-nascimento">
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+
+    <script src="https://kit.fontawesome.com/4783fe1c33.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

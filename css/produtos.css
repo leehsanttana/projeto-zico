@@ -1,0 +1,35 @@
+header{
+    background-image: url(../img/projeto.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.nav-produtos li{
+    margin: .8em;
+    margin-top: 1em;
+}
+
+.list{
+    background: #f8f9fa;
+    color: #03071E;
+}
+
+.list:hover{
+    background: #03071E;
+    color: #fff;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: none;
+  }
+
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    color: #fefefe;
+    background-color: #03071E;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
